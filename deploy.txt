@@ -1,0 +1,11 @@
+src
+bootstrap.py
+main.py
+main_debug.py
+web_main.py
+icons
+i18n
+assets
+requirements.txt
+requirements-web.txt
+README.md

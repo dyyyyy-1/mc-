@@ -1,0 +1,20 @@
+[project]
+name = "vya-origin"
+version = "0.0.0"
+description = "ok-script 框架骨架，目标窗口：维亚之巅 起源"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[project.optional-dependencies]
+# PySide6-Fluent-Widgets 会声明完整的 PySide6 元包，但应用只用到 Essentials。
+# 安装时使用 --no-deps 并保留 pyside6-essentials，可显著减小体积。
+qt = [
+    "ok-script[adb,default,ocr,qt]==2.0.0b7",
+    "openvino",
+    "opencv-python",
+]
+web = [
+    "ok-script[adb,default,ocr,web]==2.0.0b7",
+    "openvino",
+    "opencv-python",
+]
