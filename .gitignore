@@ -75,3 +75,6 @@ working_images/
 
 # 本地协作记录，不入库
 .workbuddy/
+
+# 依赖以 requirements.txt 锁定
+uv.lock
