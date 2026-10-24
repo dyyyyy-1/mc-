@@ -9,3 +9,4 @@ assets
 requirements.txt
 requirements-web.txt
 README.md
+pyappify.yml
