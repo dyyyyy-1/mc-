@@ -1,7 +1,20 @@
 # 维亚之巅 起源 · ok-script 框架
 
-基于 ok-script 2.0.0b7 的自动化脚本框架，目标窗口按名称识别为 **《维亚之巅 起源》**。
-本仓库只保留框架：任务实现与图像识别资源均为空，需按项目自行填充。
+基于 ok-script 2.0.0b7 的自动化脚本，目标窗口按名称识别为 **《维亚之巅 起源》**（Minecraft Java 版）。
+当前包含技能循环任务，图像识别资源仍需按需标注。
+
+## 下载与更新
+
+- **首次安装**：在 [Releases](https://github.com/dyyyyy-1/mc-/releases) 下载 `mc-auto-win32-Global-setup.exe` 安装，安装包自带 Python 运行时，无需自行配置环境。
+- **版本更新**：启动后在「关于」页点击检查更新，从独立更新库 `dyyyyy-1/mc-update` 拉取变更文件并重启生效。
+- **数据保留**：`configs/`、`logs/`、`screenshots/` 不参与更新，升级不会覆盖本地配置。
+
+## 许可证
+
+本项目采用 **AGPL-3.0**，完整许可见 [LICENSE](LICENSE)。
+
+- 源码地址：https://github.com/dyyyyy-1/mc-
+- 本项目基于 [ok-script](https://github.com/ok-oldking/ok-script)（AGPL-3.0）构建，发行包内含其代码，遵循同一许可证。
 
 ## 环境与启动
 
